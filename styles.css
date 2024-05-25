@@ -13,17 +13,17 @@
     padding: 20px;
 }
 
-.calculator{
+.container .calculator{
     width: 100%;
     max-width: 600px;
     margin-left: 10%;
     margin-top: 10%;
 }
 
-.calculator h1{
+ .container .calculator h1{
     font-size: 60px;
 }
 
-span{
+ .calculator h1 span{
     color: orange;
 }
