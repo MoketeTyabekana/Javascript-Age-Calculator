@@ -19,3 +19,11 @@
     margin-left: 10%;
     margin-top: 10%;
 }
+
+.calculator h1{
+    font-size: 60px;
+}
+
+span{
+    color: orange;
+}
