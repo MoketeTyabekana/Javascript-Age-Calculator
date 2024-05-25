@@ -38,27 +38,29 @@
   border: none;
   background-color: #000065;
   border-radius: 10px;
+  justify-content: center;
 }
 
-.container .calculator .inputbox input,button{
-    width: 100%;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    font-weight: 600;
-    font-size: 16px;
+.container .calculator .inputbox input,button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
 }
 
- .container .calculator .inputbox input:focus,button:focus{
-    outline: none;
+.container .calculator .inputbox input:focus,
+button:focus {
+  outline: none;
 }
 
-input{
-    color: #000065;
+input,button {
+  color: #000065;
 }
 
-button{
-    background: linear-gradient(180deg, #ffe100, #ffc800);
-    color: #fff;
-    font-weight: 600;
+button {
+  background: linear-gradient(180deg, #ffe100, #ffc800);
+  font-weight: 600;
 }
