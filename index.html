@@ -1,31 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=Age, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=Age, initial-scale=1.0" />
     <title>Age Calculator</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
     <div class="container">
-        <div class="calculator">
-            <h1>
-                JavaScript<br><span>Age Calculator</span>
-                <div class="inputbox">
-                    <input type="date" id="dob" placeholder="Date of Birth">
-                    <button>Calculate</button>
-                </div>
-            </h1>
-        </div>
+      <div class="calculator">
+        <h1>
+          JavaScript<br /><span>Age Calculator</span>
+          <div class="inputbox">
+            <input type="date" id="dob" placeholder="Date of Birth" />
+            <button onclick="CalculateAge()">Calculate</button>
+          </div>
+        </h1>
+      </div>
     </div>
 
-<script>
-    let userDateInput=document.getElementById('dob'); 
-    userDateInput=new Date().toISOString.split('T'[0]);
+    <script>
+      let userDateInput = document.getElementById("dob");
+      userDateInput = new Date().toISOString.split("T"[0]);
 
-    
+      function CalculateAge() {
+        let birthDate = new Date(userDateInput.value);
 
-</script>
+        let d1 =birthDate.getDate();
+        let m1 =birthDate.getDate();
+        let y1 =birthDate.getDate();
 
-</body>
+
+      }
+    </script>
+  </body>
 </html>
