@@ -21,7 +21,7 @@
 
     <script>
       let userDateInput = document.getElementById("dob");
-      userDateInput = new Date().toISOString.split("T")[0];
+      userDateInput.max = new Date().toISOString.split("T")[0];
 
       function CalculateAge() {
         let birthDate = new Date(userDateInput.value);
