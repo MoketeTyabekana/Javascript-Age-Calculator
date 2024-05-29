@@ -85,3 +85,33 @@ button {
   background: linear-gradient(180deg, #ffe100, #ffc800);
   font-weight: 600;
 }
+
+p{
+  margin-top: 15px;
+  font-weight: 600;
+  font-size: 18px;
+  color: #ffc800;
+  justify-content: left;
+}
+
+@media (max-width:500px){
+  .container .calculator {
+  width: 100%;
+  padding: 5%;
+}
+
+.container .calculator .inputbox {
+  margin-top: 20px;
+  gap: 15px;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  padding: 30px;
+  border: none;
+  background-color: #000065;
+  border-radius: 10px;
+  justify-content: center;
+}
+
+
+}
